@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333232;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.infor {
+  color: rgb(226, 236, 234);
+}
+.musicPlaysit {
+  display: flex;
+  flex-direction: row;
+}
+.currentAndPlay {
+  color: white;
+}
+.progressBar {
+  width: 500px;
+  height: 5px;
+  background-color: gray;
+}
+.currentProgress {
+  width: 0%;
+  height: 100%;
+  background-color: red;
+}
+.control {
+  font-size: 25px;
+  color: white;
+  margin: 20px 40px;
+  cursor: pointer;
+}
+.display {
+  display: none;
+}
+.songName {
+  font-size: 18px;
+  font-style: italic;
+}
+.singerName {
+  font-size: 17px;
+  font-style: italic;
+}
+.d-name {
+  color: red;
+  font-size: 21px;
+  font-style: italic;
+}
+.d-word {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
